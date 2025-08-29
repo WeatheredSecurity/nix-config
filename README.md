@@ -11,12 +11,16 @@ the flake will be updated with the included 'nix-rebuild.sh' script. this will p
 
 # flake overview
 ```bash
-.
 ├── flake.nix
 ├── flake.lock
 ├── homeManagerModules
+│   ├── default.nix
 │   ├── wifi
+│   │   └── default.nix
+│   │   └── common.nix
 │   ├── bt
 │   ├── bladeRF
-
 ```
+
+
+# feature overview
